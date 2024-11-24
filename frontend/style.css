@@ -28,6 +28,7 @@ button{
 }
 
 #main-conversation{
+    width: 40vw;
     margin-left: 30vw;
     margin-top: 15vh;
 }
