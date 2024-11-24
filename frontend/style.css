@@ -1,0 +1,33 @@
+button {
+  width: 200px;               /* Set equal width and height */
+  height: 200px;
+  border-radius: 50%;        /* Makes the button round */
+  background-color: #0492c2; /* Example background color */
+  border: none;              /* Remove default border */
+  color: white;              /* Button text color */
+  font-size: 16px;           /* Adjust text size */
+  cursor: pointer;           /* Pointer cursor on hover */
+  display: flex;             /* Center the text/icon */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  transition: transform 0.2s ease; /* Animation effect */
+}
+
+button:hover {background-color: #0372A0}
+
+button:active {
+  background-color: #0372A0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button{
+    margin-left: 40vw;
+    margin-top: 20vh;
+}
+
+#main-conversation{
+    margin-left: 30vw;
+    margin-top: 15vh;
+}
